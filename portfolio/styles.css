@@ -1,0 +1,137 @@
+body {
+  font-family: monospace;
+}
+
+.container {
+  padding: 0px;
+}
+
+.header {
+  height: 100vh;
+}
+
+.logo {
+  margin-top: 50vh;
+  color: #666;
+  font-size: 2.7vh;
+}
+
+.lspace {
+  letter-spacing: 2.7vh;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 2.3vh;
+}
+
+.navigation {
+  position: absolute;
+  right: 2vh;
+  bottom: 2vh;
+}
+
+.navigation a {
+  color: #000;
+}
+
+img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+#work {
+  background: #121212;
+  width: 100%;
+  color: #fff;
+}
+
+#work p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 3vh;
+}
+
+.contact {
+  background: #0a0a0a;
+  height: 50vh;
+  width: 100%;
+  color: #fff;
+}
+
+.contact a {
+  color: #fff;
+}
+
+.contact ul {
+  padding-top: 2vh;
+  padding-left: 2vh;
+}
+
+.bye {
+  padding-top: 10vh;
+  font-size: 2.5vh;
+  letter-spacing: 2.5vh;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #000;
+  width: 100%;
+  color: #fff;
+  font-size: 2vh;
+}
+
+.blink {
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinker;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blinker;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@-webkit-keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1.0;
+  }
+  50% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
