@@ -1,0 +1,71 @@
+body {
+  font-family: 'Cormorant Garamond';
+  color: #636363;
+  font-size: 1.5vw;
+}
+
+.bgcolor {
+  background: #f0f0f0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Monsieur La Doulaise';
+  font-size: 4em;
+  font-size: 10.0vw;
+}
+
+h2 {
+  margin-top: 30px;
+  font-family: 'Monsieur La Doulaise';
+  font-size: 3em;
+  font-size: 8.0vw;
+}
+
+p {
+  margin-top: 50px;
+  font-size: 1.5vw;
+}
+
+.move {
+  position: relative;
+  left: 80px;
+}
+
+.first-line {
+  position: relative;
+  left: -80px;
+  line-height: 0px;
+}
+
+p::first-letter {
+  position: relative;
+  left: 100px;
+  bottom: 20px;
+  padding-right: 78px;
+  padding-bottom: 0px;
+  font-family: 'Monsieur La Doulaise';
+  font-size: 3em;
+  font-size: 6.0vw;
+  line-height: 0px;
+}
+
+ul {
+  width: 20em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hr {
+  margin: 20px 0px;
+  border-style: solid;
+  border-width: 1.5px 0px;
+  border-color: #e8e8e8 transparent #f7f7f7 transparent;
+}
+
+.foot {
+  font-size: 0.8em;
+}
